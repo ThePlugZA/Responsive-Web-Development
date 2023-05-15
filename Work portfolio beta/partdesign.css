@@ -1,0 +1,157 @@
+
+#navbar{
+    background-color:#121212;
+    display: flex;
+    justify-content: flex-front;
+   position:fixed;
+    width:100%;
+    top:0;
+    left: 0;  
+     z-index: 10;
+  }
+  #navbar li{
+    list-style:none;
+    display:inline;
+   
+  }
+  nav a{
+    text-decoration:none;
+    border: 1px solid;
+    border-radius:5px;
+    flex-direction: row;
+    color:grey;
+     display: inline-block;
+    font-size: 2.2rem;
+  }
+   
+  .nav-list a:hover{
+    background:#1F1B24;
+  }
+  a{
+    text-decoration:none;
+  }
+  h1{
+    color: #A1B57D;
+    text-shadow: 2px 2px black;
+    font-size:40px;
+    text-align:center;
+    font-family: "Audiowide" , sans-serif;
+  }
+  
+  h2{
+    text-align: center;
+    color:#A1B57D;
+  }
+   
+  #welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(
+        120deg,
+        rgba(255,0,0,0.5),       rgba(0,0,0,0.99)),url("https://miro.medium.com/max/802/1*9npNPVH7iNJ64Koq7EcW5A.jpeg");
+    height: 630px;
+    width: 100%;
+   
+    background-repeat: no-repeat;
+    background-position:center;  
+  }
+  
+  .projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+  
+  }
+  #projects {
+    display:flex;
+    flex-direction:column;
+    background: #1c1c1c;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  .projects-grid {
+    display: grid;
+    grid-template-columns:unset;
+    grid-auto-columns: minmax(160px,1fr);
+    grid-auto-flow: column;
+    grid-template-rows: 1fr;
+    grid-gap: 4rem;
+    overflow-x:auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  
+  .project-title {
+  text-align:center;
+    padding: 0.5rem 0.5rem;
+    background:#121212;
+    border-radius:6px;
+    color:grey;
+  }
+  
+  @media (max-width: 30.625em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .project-img {
+  border-radius:5px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  @media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
+  
+  .contact-section{
+    display:flex;
+    flex-direction:column;
+    background-color:#121212;
+    align-items:center;
+    text-align:center;
+  width:100%;
+     height: 75%;
+  
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  footer{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    background-color:#1c1c1c;
+    color:#A1B57D;
+  }
+  hr{
+    color:white;
+    width:100%;
+  }

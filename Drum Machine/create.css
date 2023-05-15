@@ -1,0 +1,80 @@
+#drum-machine {
+   background-color: beige;
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 20px;
+   display: flexbox;
+   margin: auto;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 350px;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   padding: 2%;
+}
+
+button {
+   color: beige;
+   background-color: rgb(82, 88, 82);
+   width: 40px;
+   height: 40px;
+   margin-bottom: 20px;
+	border: 1px solid rgb(68, 59, 59);
+	border-radius: 10px;
+}
+button:hover {
+   background-color: rgb(68, 59, 59);
+	font-style: oblique; 
+}
+
+#control {
+   align-items: center;
+   margin: auto;
+   position: absolute;
+   padding: 0px;
+   top:50px;
+   left: 159px;
+}
+
+#display {
+   background-color:  rgb(82, 88, 82);
+   color: beige;
+   border: 1px solid rgb(0, 0, 0);
+   border-radius: 5px;
+   height: 30px;
+   text-align: center;
+   align-items: center;
+}
+
+#volume {
+   width: 350px;
+}
+
+i.fa-solid fa-volume-low {
+   position: absolute;
+   left: 20px;
+}
+#volume-slider {
+   width: 140px; /* adjust the width as desired */
+   margin: auto; /* center the slider horizontally */
+	border: 1px solid rgb(68, 59, 59);
+	display: flexbox;
+	border-radius: 5px;
+   background-color: beige; /* change the background color */
+}
+
+input[type=range] {
+   -webkit-appearance: none; /* remove the default appearance */
+   width: 100%; /* make the slider fill the parent container */
+   background-color: beige; /* change the track color */
+}
+
+input[type=range]::-webkit-slider-thumb {
+   -webkit-appearance: none; /* remove the default appearance */
+   width: 15px; /* adjust the thumb width */
+   height: 15px; /* adjust the thumb height */
+	border-radius: 3px;
+   background-color: rgb(68, 59, 59); /* change the thumb color */
+   cursor: pointer; /* change the cursor on hover */
+}
+

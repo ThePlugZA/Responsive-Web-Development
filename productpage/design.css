@@ -1,0 +1,149 @@
+body {
+    color: white;
+    background:linear-gradient(rgb(25, 39, 52),black);
+    max-width: 1170px;
+    margin-left: 0 auto;
+    margin-right: auto;
+    padding-left: 0 px;
+    padding-right: 16px;
+  }
+  
+  h1{
+    text-align:center;
+    font-size:35px;
+  }
+  li{
+    list-style:none;
+  }
+    a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  img{
+    width:80px;
+    height:80px;
+    display:flex;
+    align-items:left;
+  }
+  
+  header {
+    position: fixed;
+    top: 10;
+    
+    width:100%;
+    height: 30  px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+  }
+  
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+
+ 
+  #nav-bar li{
+    display: inline-block;
+    border:1px solid;
+    padding: 30px;
+    
+  }
+  
+  .container{          
+     max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+@media (max-width: 1000px) {  /* so brand containers can be on top of one another */
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+  .brandname {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+  }
+  
+  .brandname > .level{
+    background-color: grey;
+   color: red;
+   padding: 15px 0;
+   width: 100%;
+   text-transform: uppercase;
+   font-weight: 700;
+ }
+  
+  #sample{
+    width:75%;
+    height:40%;
+  }
+  
+  #vision {
+    margin: 50px;
+   justify-content: center;
+    display: flex;
+  }
+  
+  .btn{
+     padding: 10px  20px;
+    height: 50px;
+    display:flex;
+    background: grey;
+    cursor: pointer;
+  }
+  
+  #brands{
+     margin-top: 60px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
+  
+  #info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+  #info  input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+  #info  input[type='submit'] {
+    max-width:150  px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: black;
+    border:1px solid;
+    border-color:white;
+    color:white;
+   align-items:center;
+  }
+  
+  footer{
+    color:grey;
+    text-align:center;
+  }

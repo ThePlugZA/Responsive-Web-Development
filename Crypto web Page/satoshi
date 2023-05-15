@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="navstyling.css">
+    </head>
+<nav id="navbar">
+  <header id="header">Crypto</header>
+
+  <ul>
+    <li>
+      <a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#Who_or_What_is_Satoshi?">Who or What is Satoshi?</a></li>
+    <li>
+      <a class="nav-link" href="#Blockchain_Technologies">Blockchain Technologies</a></li>
+    <li>
+      <a class="nav-link" href="#Cryptocurrency">Cryptocurrency</a></li>
+    <li>
+      <a class="nav-link" href="#Non_Fungible_Tokens">Non Fungible Tokens</a></li>
+    <li>
+      <a class="nav-link" href="#Safety">Safety</a></li>
+    <li>
+      <a class="nav-link" href="#Future_Implications">Future Implications</a></li>
+    <li>
+      <a class="nav-link" href="#References">References</a></li>
+  </ul>  
+</nav> 
+
+<main id="main-doc">
+<a href="https://en.wikipedia.org/wiki/Cryptocurrency" target="_blank"><img id="main-img" src="data:image/png;base64,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"/></a>
+  
+<section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+    <p>These past few years have been filled with a lot of technological advancements. There one that was creating the most buzz undoubtable has to be the crypto ecosystems. </br>
+ In blockchain, decentralization refers to the transfer of control and decision-making from a centralized entity (individual, organization, or group thereof) to a distributed network. Decentralized networks strive to reduce the level of trust that participants must place in one another, and deter their ability to exert authority or control over one another in ways that degrade the functionality of the network. </p> 
+    </article>
+  </section>
+  
+<section class="main-section" id="Who_or_What_is_Satoshi?">
+  <header>Who or What is Satoshi?</header>
+  <article>
+  <p>Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. As part of the implementation, Nakamoto also devised the first blockchain database. Nakamoto was active in the development of bitcoin up until December 2010. Many people have or have been claimed to be Nakamoto.</p>
+  
+  <p>Nakamoto stated that work on the writing of the code for bitcoin began in 2007. On 18 August 2008, he or a colleague registered the domain name bitcoin.org, and created a web site at that address. On 31 October, Nakamoto published a white paper on the cryptography mailing list at metzdowd.com describing a digital cryptocurrency, titled "Bitcoin: A Peer-to-Peer Electronic Cash System".</br>
+On 9 January 2009, Nakamoto released version 0.1 of the bitcoin software on SourceForge, and launched the network by defining the genesis block of bitcoin (block number 0).</br>
+Nakamoto continued to collaborate with other developers on the bitcoin software until mid-2010, making all modifications to the source code himself. He then gave control of the source code repository and network alert key to Gavin Andresen, transferred several related domains to various prominent members of the bitcoin community, and stopped his recognized involvement in the project.
+<cite>Nakamoto owns between 750,000 and 1,100,000 bitcoin. As of November 2021, that puts his net worth at up to 73 billion US dollars, which would make him the 15th-richest person in the world.</cite></p>
+ 
+<p>There are 100 million satoshis (sats) in one bitcoin, meaning each satoshi is worth 0.00000001 BTC. In order for one satoshi to be worth one cent, 1 BTC would need to be worth $1 million.
+As of early 2022, a satoshi is worth less than a twentieth of a cent. The satoshi is not the only subdivision of bitcoin. A millibitcoin is a term for one-thousandth of a bitcoin or 0.001 BTC</p>
+</article>
+</section>
+  
+<section class="main-section" id="Blockchain_Technologies">
+  <header>Blockchain Technologies</header>
+  <article>
+    <p>Blockchain defined: Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding). Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved.</p>
+   
+    <b>Elements of a blockchain</b>
+    <ul>
+      <li><i>Distributed ledger technology</i></br>
+All network participants have access to the distributed ledger and its immutable record of transactions. With this shared ledger, transactions are recorded only once, eliminating the duplication of effort that’s typical of traditional business networks.</li>
+
+  <li><i>Immutable records</i></br>
+No participant can change or tamper with a transaction after it’s been recorded to the shared ledger. If a transaction record includes an error, a new transaction must be added to reverse the error, and both transactions are then visible.</li>
+
+<li><i>Smart contracts</i></br>
+To speed transactions, a set of rules — called a smart contract — is stored on the blockchain and executed automatically. A smart contract can define conditions for corporate bond transfers, include terms for travel insurance to be paid and much more.</li>
+    </ul>  
+
+<p>You can put it as: Each block is connected to the ones before and after it.</br>
+These blocks form a chain of data as an asset moves from place to place or ownership changes hands. The blocks confirm the exact time and sequence of transactions, and the blocks link securely together to prevent any block from being altered or a block being inserted between two existing blocks.</br>
+Transactions are blocked together in an irreversible chain: a blockchain</br>
+Each additional block strengthens the verification of the previous block and hence the entire blockchain. This renders the blockchain tamper-evident, delivering the key strength of immutability. This removes the possibility of tampering by a malicious actor — and builds a ledger of transactions you and other network members can trust.   
+</P> 
+
+<code>blockchain= Blockchain()</br>
+t1= blockchain.new_transaction("Satoshi","Mike",'5 BTC')</br>
+t2= blockchain.new_transaction("Mike","Satoshi",'1 BTC')</br>
+t3= blockchain.new_transaction("Satoshi","Hal Finney",'5 BTC')</br>
+blockchain.new_block(6789)
+</code>
+  
+<b>Beneifts</b>
+<ul>
+  <li><i>Greater trust</i></br>
+With blockchain, as a member of a members-only network, you can rest assured that you are receiving accurate and timely data, and that your confidential blockchain records will be shared only with network members to whom you have specifically granted access.</li>
+
+<li><i>Greater security</i></br>
+Consensus on data accuracy is required from all network members, and all validated transactions are immutable because they are recorded permanently. No one, not even a system administrator, can delete a transaction.</li>
+
+<li><i>More efficiencies</i></br>
+With a distributed ledger that is shared among members of a network, time-wasting record reconciliations are eliminated. And to speed transactions, a set of rules — called a smart contract — can be stored on the blockchain and executed automatically.</li>
+</ul> 
+    </artcle>
+</section> 
+
+<section class="main-section" id="Cryptocurrency">
+  <header>Cryptocurrency</header>
+  <article>
+  <p>Is a digital currency designed to work as a medium of exchange through a computer network that is not reliant on any central authority, such as a government or bank, to uphold or maintain it.</br>
+Individual coin ownership records are stored in a digital ledger, which is a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership. Despite their name, cryptocurrencies are not necessarily considered to be currencies in the traditional sense and while varying categorical treatments have been applied to them, including classification as commodities, securities, as well as currencies, cryptocurrencies are generally viewed as a distinct asset class in practice. 
+  </p>
+
+<code>def new_data(self, sender, recipient, quantity):
+    self.current_data.append({
+        'sender': sender,
+        'recipient': recipient,
+        'quantity': quantity
+    })
+    return True
+</code>
+  
+<p>It does not exist in physical form (like paper money) and is typically not issued by a central authority. Cryptocurrencies typically use decentralized control as opposed to a central bank digital currency (CBDC). When a cryptocurrency is minted or created prior to issuance or issued by a single issuer, it is generally considered centralized. When implemented with decentralized control, each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.</br>
+A cryptocurrency is a tradable digital asset or digital form of money, built on blockchain technology that only exists online. Cryptocurrencies use encryption to authenticate and protect transactions, hence their name. There are currently over a thousand different cryptocurrencies in the world.</p>
+<cite>Bitcoin, first released as open-source software in 2009, is the first decentralized cryptocurrency. Since the release of bitcoin, many other cryptocurrencies have been created.</cite>
+
+<code>{
+    "index": 2,
+    "proof": 21,
+    "prev_hash": "6e27587e8a27d6fe376d4fd9b4edc96c8890346579e5cbf558252b24a8257823",
+    "transactions": [
+        {'sender': '0', 'recipient': 'Quincy Larson', 'quantity': 1}
+    ],
+    "timestamp": 1521646442.4096143
+} 
+</code> 
+
+<p>In cryptocurrency networks, mining is a validation of transactions. For this effort, successful miners obtain new cryptocurrency as a reward. The reward decreases transaction fees by creating a complementary incentive to contribute to the processing power of the network. The rate of generating hashes, which validate any transaction, has been increased by the use of specialized machines such as FPGAs and ASICs running complex hashing algorithms like SHA-256 and scrypt.[51] This arms race for cheaper-yet-efficient machines has existed since the first cryptocurrency, bitcoin, was introduced in 2009.</br>
+With more people venturing into the world of virtual currency, generating hashes for validation has become more complex over time, forcing miners to invest increasingly large sums of money to improve computing performance. Consequently, the reward for finding a hash has diminished and often does not justify the investment in equipment and cooling facilities (to mitigate the heat the equipment produces), and the electricity required to run them.  
+</p>
+  </article>
+    </section>
+
+<section class="main-section" id="Non_Fungible_Tokens">
+  <header>Non Fungible Tokens</header>
+  <article>
+  <p>Non-fungible” more or less means that it’s unique and can’t be replaced with something else. For example, a bitcoin is fungible — trade one for another bitcoin, and you’ll have exactly the same thing. A one-of-a-kind trading card, however, is non-fungible. If you traded it for a different card, you’d have something completely different.</p> 
+    <img src="https://cdn.vox-cdn.com/thumbor/3j376QfTDxkCD5_vfYHOXcoIU2Q=/800x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22341197/doge.gif" id="gif" />
+    
+ <p>The distinct construction of each NFT has the potential for several use cases. For example, they are an ideal vehicle to digitally represent physical assets like real estate and artwork. Because they are based on blockchains, NFTs can also work to remove intermediaries and connect artists with audiences or for identity management. NFTs can remove intermediaries, simplify transactions, and create new markets.</p> 
+   
+  <p>NFTs shift the crypto paradigm by making each token unique and irreplaceable, thereby making it impossible for one non-fungible token to be equal to another. They are digital representations of assets and have been likened to digital passports because each token contains a unique, non-transferable identity to distinguish it from other tokens. They are also extensible, meaning you can combine one NFT with another to “breed” a third, unique NFT.</br>
+Just like Bitcoin, NFTs also contain ownership details for easy identification and transfer between token holders. Owners can also add metadata or attributes pertaining to the asset in NFTs.
+    </p>
+<code>
+  #import &lt;ctype.h&gt;
+  #import &lt;objc/Object.h&gt;
+  #import &lt;objc/typedstream.h&gt;
+  #import &lt;appkit/appkit.h&gt; 
+</code>
+    
+<p><b>The Importance</b></br>
+Modern finance systems consist of sophisticated trading and loan systems for different asset types, ranging from real estate to lending contracts to artwork. By enabling digital representations of physical assets, NFTs are a step forward in the reinvention of this infrastructure.</br>
+Non-fungible tokens are also excellent for identity management. Consider the case of physical passports that need to be produced at every entry and exit point. By converting individual passports into NFTs, each with its own unique identifying characteristics, it is possible to streamline the entry and exit processes for jurisdictions.</br>
+The most exciting possibility for NFTs lies in the creation of new markets and forms of investment. Consider a piece of real estate parceled out into multiple divisions, each of which contains different characteristics and property types. One of the divisions might be next to a beach while another is in an entertainment complex, and yet another is a residential district. Depending on its characteristics, each piece of land is unique, priced differently, and represented with an NFT. Real estate trading, a complex and bureaucratic affair, can be simplified by incorporating relevant metadata into each unique NFT.</p>
+
+<code>// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
+contract EmotionalShapes is ERC721 {
+    using Counters for Counters.Counter;
+    Counters.Counter private _tokenIdCounter;
+    constructor() ERC721("EmotionalShapes", "ESS") {}
+    function _baseURI() internal pure override returns (string memory) {
+        return "YOUR_API_URL/api/erc721/";
+    }
+    function mint(address to)
+        public returns (uint256)
+    {
+        require(_tokenIdCounter.current() < 3); 
+        _tokenIdCounter.increment();
+        _safeMint(to, _tokenIdCounter.current());
+        return _tokenIdCounter.current();
+    }
+}
+</code>
+  
+<p>Decentraland, a virtual reality platform on Ethereum’s blockchain, has already implemented such a concept.13 As NFTs become more sophisticated and integrate into the financial infrastructure, it may become possible to implement the same concept of tokenized pieces of land (differing in value and location) in the physical world.</p>
+</article>
+  </section>
+
+<section class="main-section" id="Safety">
+  <header>Safety</header>
+<article>
+  <p>One of the oldest hacking attempts in the book, phishing is when a scammer tries to lure sensitive information or data from you by disguising themselves as a trustworthy source. They use platforms like text messages, emails, and even phone calls to do it. </br>
+In the case of phishing and blockchain security, these phishing messages might entice blockchain users to provide their unique ID associated with a blockchain account or encourage them to click a link that gains access to a blockchain network.</p>
+
+<p>Code exploitation is when a blockchain user — or cybercriminal acting as a blockchain user — identifies a weak spot in a blockchain’s software and exploits that weakness with malicious intent.</br>     
+Example: In 2016, a hacker swiped more than $50 million from venture capital fund Decentralized Autonomous Organization by way of code exploitation</p>    
+    
+<p>Remember how every blockchain user is granted a unique identifier — kind of like an ID badge — to enter a blockchain network? Those are also known as private keys and, yes, they can be stolen. When in the wrong hands, a cybercriminal can attempt to alter information in a blockchain under a permissioned users’ key.</p>
+
+To that end, consider putting the following measures in place to level up your individual blockchain security:
+<ul>
+  <li>Use a VPN to encrypt your internet activity and avoid routing attacks.</li> 
+<li>Never share your keys with anyone to avoid being hacked.
+  Don’t leave your devices unattended to prevent malicious actors from accessing them.</li>    
+  <li>Know how to spot phishing attempts by being wary of suspicious or unwarranted messages.</li>
+  <li>Don’t alter data in blockchains so your user permissions aren’t revoked.</li>
+</ul> 
+  </article>
+</section>
+
+<section class="main-section" id="Future_Implications">
+  <header>Future Implications</header>
+  <article>
+    <p>Blockchain technology has made significant strides in its development and widespread adoption in recent years, and there’s no sign of it slowing down. In fact, according to Deloitte’s 2021 Global blockchain development Survey, almost 76% of executives surveyed said they expect digital assets will be a solid alternative to fiat currencies for global finance in the next 5–10 years.</p>
+    
+   <p>Due to the secured & decentralized nature of blockchain technology, it’s incredibly difficult (if not impossible) for hackers or nefarious parties to tamper with transactions. Blockchain-verified data is highly secure and trustworthy, meaning transactions can be processed much faster than in today’s world without compromising security.</br>
+The reason why the banking and financial services industry moves towards a completely digital landscape. It’s been predicted that blockchain technology will experience a boost in popularity among finance professionals, with 66% of banks expecting to have blockchain solutions in production within the next three years.</p>
+
+<p>Today, we use passwords and authentication questions to prove who we are online. Blockchain could replace this system with a digital identity that is safe, secure, and easy to manage.</br>
+Instead of proving who you are by recalling some personal, arbitrary piece of information that could potentially be guessed or stolen, your digital identity is based on the uniquely random set of numbers assigned to each user on a blockchain network.
+This means your identity can’t be hacked or changed without access to your private key, which makes it exponentially more reliable than our current solution.
+</p> 
+  </article>
+</section>
+
+<section class="main-section" id="References">
+  <header>References</header>
+  <article>
+    <ul>
+      <li><a href="www.europeanbusinessreview.com">Europeanbusinessreview</a></li>
+      <li><a href="us.norton.com">Norton</a></li>
+      <li><a href="www.freecodecamp.org">Freecodecamp</a></li>
+      <li><a href="www.investopedia.com">Investopedia</a></li>
+      <li><a href="www.theverge.com">TheVerge</a></li>
+      <li><a href="www.ibm.com">IBM</a></li>
+      <li><a href="www.coindesk.com">Coindesk</a></li>
+      <li><a href="aws.amazon.com">Amazon</a></li>
+    </ul> 
+  </article>  
+  </section>
+</main>
+</html>

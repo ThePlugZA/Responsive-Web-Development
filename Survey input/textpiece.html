@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="stylle.css">
+</head>
+
+  <header class="header">
+    <h1 id="title" class="text-center">Music Survey</h1> <br/>
+    <h3><i>What do you listen to?</i></h3>
+    <p id="description">We would like to know what you are plugged to and why.</p>
+  </header>
+
+<div class="container">
+<form id="survey-form">
+  <div class="form-group">
+    <label id="name-label" for="name">Name</label>
+    <input
+        type="text"
+        name="name" 
+        class="form-control"   
+        placeholder="Enter your name"
+        id="name"
+        required/>
+  </div>
+    
+  <div class="form-group">
+    <label id="number-label" for="number">
+      Age  (optional)</label>
+    <input
+         id="number"  
+         type="number"
+         name="age"
+         min="15"
+         max="55"
+         class="form-control"  
+         placeholder="Age"/>  
+       </div>
+  
+  <div class="form-group">
+    <label id="email-label" for="email"> 
+      Email</label>
+  <input
+         id="email"
+         type="email"
+         name="email"
+         class="form-control"
+         placeholder="Enter email"
+         required/>
+  </div>
+    
+ <div class="form-group">
+   <label id="gender-label" for="gender">
+     Gender</label>
+   <select id="dropdown" name="gender" class="form-control" required>
+     <option disabled selected value>Select gender</option>
+     <option value="Male">Male</option>
+     <option value="Female">Female</option>
+     <option value="Prefer not to say">Other</option>
+   </select>
+    </div>
+    
+    <div class="form-group">
+      <label>App you consistently use:</label>
+      <h2>
+        <input
+            name="User-App"
+            value="Spotify"
+            type="radio"
+            class="input-radio"
+            checked />Spotify</h2> 
+      <h2>
+        <input
+               name="User-App"
+               value="Apple Music"
+               type="radio"
+               class="input-radio"
+               checked />Apple Music</h2>
+      <h2>
+        <input
+               name="User-App"
+               value="YouTube Music"
+               type="radio"
+               class="input-radio"
+               checked />YouTube Music</h2>
+      <h2>
+        <input
+               name="User-App"
+               value="other"
+               type="radio"
+               class="input-radio"
+               checcked />Other</h2>
+  </div>  
+  
+  <div class="form-group">
+    <label>Music genres you listen to</label>
+    <h2>
+      <input
+             name="genre"
+             value="HipHop"
+             type="checkbox"
+             class="input-checkbox"
+             />HipHop</h2>
+    <h2>
+      <input
+             name="genre"
+             value="RnB"
+             type="checkbox"
+             class="input-checkbox"
+             />RnB</h2>
+    <h2>
+      <input
+             name="genre"
+             value="indie"
+             type="checkbox"
+             class="input-checkbox"
+             />Indie</h2>
+    <h2>
+      <input
+             name="genre"
+             value="local"
+             type="checkbox"
+             class="input-checkbox"
+             />Amapiano</h2>
+    <h2>
+      <input
+             name="genre"
+             value="soulful"
+             type="checkbox"
+             class="input-checkbox"
+             />Soulful</h2> 
+       </div>      
+    
+  <div class="form-group">
+    <label>Comment on the emotions music gives you</label>
+    <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter commments..."
+              ></textarea>
+  </div>
+  
+  <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+  </div>
+  </form>
+           </div>

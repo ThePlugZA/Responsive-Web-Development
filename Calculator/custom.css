@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-image:linear-gradient(
+      120deg,
+      rgba(3, 9, 132, 0.302),
+        rgba(4, 2, 16, 0.99)
+    ),
+    url(https://undark.org/wp-content/uploads/2020/01/GettyImages-154932300-1200x675.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#calculate {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    width: 60%;
+    height: 60%;
+    display: flexbox;
+    margin:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 5px 5px 5px 5px;
+    min-width: 350px;
+    max-width: 400px;
+    min-height: 300px;
+    font-size: larger;
+}
+#text-display {
+    padding: 1px;
+    border: 2px solid rgb(254, 245, 245);
+    width: 100%;
+    height: 20%;
+    margin: auto;
+    left: 50%;
+}
+  #display {
+    width: 100%;
+    font-size: large;
+    font-weight: bolder;
+    color: aliceblue;
+    text-align: right ;
+  }
+  #preview {
+    height: 50%;
+    color: rgb(60, 255, 11);
+    width: 100%;
+  }
+
+.row {
+    margin-top: 0;
+    display: flex;
+    justify-content: center; /* aligns items horizontally in the center */
+    align-items: center;
+    height: 20%; /* aligns items vertically in the center */
+  }
+  button {
+    margin-top: 0;
+    height: 60px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    color: aliceblue;
+  }
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    font-size: x-large;
+  }
+  .col-xs-2 {
+    width: 18%; /* sets the width of each button to 20% of the parent element */
+    margin: 0.1%; /* adds a 1% margin on the left and right of each button */
+  }
+  .col-xs-4 {
+    width: 27%;
+    margin: 0.1%;
+  }
+  .col-xs-3 {
+    width: 36%;
+    margin:0.1%;
+  }
